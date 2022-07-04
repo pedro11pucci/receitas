@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.header {
+    width: 1980px;
+    height: 1080px;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.header .background_image {
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    position: absolute;
+}
+
+.header .logo {
+    height: 200px;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 100px;
+    z-index: 1;
+    position: absolute;
+}
+
+.header .title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 55px;
+    font-weight: 800;
+    color: white;
+    margin-left: 27%;
+    margin-top: 395px;
+    z-index: 1;
+    position: absolute;
+}
+
+.header .subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+    margin-left: 33%;
+    margin-top: 475px;
+    z-index: 1;
+    position: absolute;
+}
+
+.header .learn_more {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #000000;
+    color: white;
+    width: 265px;
+    margin-left: 43%;
+    margin-top: 550px;
+    padding: 17px;
+    z-index: 1;
+    position: absolute;
+}
+
+.filter {
+    width: 100vw;
+    height: 100vh;
+    background-color: #7c5131;
+    z-index: 0;
+    opacity: .34;
+}
